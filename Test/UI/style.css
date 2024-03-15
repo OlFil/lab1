@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:azure;
+}
+
+#UI {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#selectDiv {
+    margin-right: 50px;
+    padding: 30px;
+}
+
+#date {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#chose {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+#button {
+    width: 100px;
+    height: 40px;
+    background-color: aquamarine;
+    cursor: pointer;
+    border: solid black 1px;
+    border-radius: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
